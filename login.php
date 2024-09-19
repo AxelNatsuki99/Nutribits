@@ -4,8 +4,8 @@ session_start();
 // Configuración de la conexión a la base de datos
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "nutribits";
+$password = "1234";
+$dbname = "alimentos";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
