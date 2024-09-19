@@ -1,0 +1,64 @@
+body {
+    margin: 0; /* Elimina el margen por defecto del body */
+    font-family: Arial, sans-serif;
+    background-image: url('inicio.jpeg');
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-attachment: fixed; /* Fija la imagen en su posición */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del body a la altura de la ventana */
+    overflow: hidden; /* Evita el scroll en caso de que el contenido sea más grande que la ventana */
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #38e47ff5;
+}
+
+.login-box {
+    text-align: center;
+    max-width: 300px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f50000;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
